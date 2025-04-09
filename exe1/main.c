@@ -28,7 +28,7 @@ void i2c_task(void *p) {
     buf_write[1] = 1 << 7;            // valor
     i2c_write_blocking(i2c_default, I2C_CHIP_ADDRESS, buf_write, 2, false);
 
-
+    vTaskDelay(pdMS_TO_TICKS(100));
 
 
     // TODO

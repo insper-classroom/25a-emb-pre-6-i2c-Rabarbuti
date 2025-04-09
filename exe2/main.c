@@ -31,6 +31,7 @@ void i2c_task(void *p) {
 
     // TODO
     // Leia o INT_ENABLE e imprima o valor
+    uint8_t reg_address = MPUREG_INT_ENABLE;
     printf("INT_ENABLE: 0x%X \n", buffer[0]);
 
     while (1) {
