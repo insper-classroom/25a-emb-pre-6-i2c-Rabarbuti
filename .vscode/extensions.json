@@ -1,17 +1,17 @@
 {
     "recommendations": [
-        "mcu-debug.debug-tracker-vscode",
-        "mcu-debug.rtos-views",
-        "ms-vscode.cpptools",
-        "marus25.cortex-debug",
-        "twxs.cmake",
-        "Wokwi.wokwi-vscode",
         "raspberry-pi.raspberry-pi-pico",
-        "mcu-debug.peripheral-viewer",
-        "mcu-debug.memory-view",
-        "ms-vscode.vscode-serial-monitor",
-        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cpptools",
+        "mcu-debug.debug-tracker-vscode",
+        "Wokwi.wokwi-vscode",
         "ms-vscode.cmake-tools",
-        "ms-vscode.cpptools-themes"
+        "marus25.cortex-debug",
+        "mcu-debug.memory-view",
+        "ms-vscode.cpptools-themes",
+        "mcu-debug.peripheral-viewer",
+        "mcu-debug.rtos-views",
+        "twxs.cmake",
+        "ms-vscode.vscode-serial-monitor",
+        "ms-vscode.cpptools-extension-pack"
     ]
 }
